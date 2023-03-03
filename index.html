@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postman CSA Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="row">
+  <div class="col-md-12">
+    <form action="submit.php" method="post">
+
+    <br>
+      <h1> Feedback Form Postman  </h1>
+      
+      <fieldset>
+        
+        <legend><span class="number">1</span> Your Info</legend>
+      
+        <label for="name">First Name:</label>
+        <input type="text" id="firstname" name="firstName">
+
+        <label for="name">Last Name:</label>
+        <input type="text" id="lastname" name="lastName">
+      
+        <label for="email">Email:</label>
+        <input type="email" id="mail" name="email">
+        
+        <div class="branch">
+            <div>
+                <label>Branch:</label>
+            <input type="radio" id="under_13" value="COMPUTER" name="branch" ><label for="under_13" class="light">COMPS</label>
+            <input type="radio" id="over_13" value="IT" name="branch" ><label for="over_13" class="light">IT</label>
+
+            </div>
+            
+            <div>
+                <label>Year:</label>
+            <input type="radio" id="under_13" value="SE" name="year"><label for="under_13" class="light">SE</label>
+            <input type="radio" id="over_13" value="TE" name="year" ><label for="over_13" class="light" >TE</label>
+
+            </div>
+            
+            <div>
+                <label>Division:</label>
+            <input type="radio" id="under_13" value="A" name="division"  ><label for="under_13" class="light ">A</label>
+            <input type="radio" id="over_13" value="B" name="division" ><label for="over_13" class="light">B</label>
+            <input type="radio" id="over_13" value="C" name="division" ><label for="over_13" class="light">C</label>
+  
+            </div>
+            
+        </div>
+        <br>
+
+        <legend><span class="number">2</span> Postman Details</legend>
+     
+        <label for="Link">Badge Link:</label>
+        <input type="text" id="Link" name="link_of_badge">
+      
+        <label for="review" >Review:</label>
+        <input type="text" id="review" name="review">
+
+        <label for="suggestion" >Suggestion:</label>
+        <input type="text" id="suggestion" name="suggestion">
+        
+      </fieldset>
+     
+     
+      <button type="submit">SUBMIT</button>
+      
+     </form>
+      </div>
+    </div>
+    
+  </body>
+</html>
